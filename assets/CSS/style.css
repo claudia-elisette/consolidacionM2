@@ -3,11 +3,33 @@ header{
     font-family: "Kode Mono", monospace;
     color: white;
     text-align: center;
+    border:1%;
+    border-color: greenyellow;
+    border-style: dotted;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+#tituloHeader{
+    font-weight: 700;
+}
+
+#textoHeader{
+    font-weight: 600;
+}
+
+.navbar{
+    background-color: black;
     border: 1%;
     border-color: greenyellow;
     border-style: dotted;
+    border-top: 1px;
+    border-top-color: greenyellow;
+    border-top-style: solid;
 
 }
-#tituloPrincipal{
-    font-weight: 600;
+
+.nav-link{
+   font-family: "Kode Mono", monospace;
+   color: white;
 }
