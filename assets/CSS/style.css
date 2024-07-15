@@ -1,0 +1,13 @@
+header{
+    background-color: black;
+    font-family: "Kode Mono", monospace;
+    color: white;
+    text-align: center;
+    border: 1%;
+    border-color: greenyellow;
+    border-style: dotted;
+
+}
+#tituloPrincipal{
+    font-weight: 600;
+}
