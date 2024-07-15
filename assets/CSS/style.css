@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 header{
     background-color: black;
     font-family: "Kode Mono", monospace;
@@ -12,6 +15,7 @@ header{
 
 #tituloHeader{
     font-weight: 700;
+    font-size: 62px;
 }
 
 #textoHeader{
@@ -32,4 +36,11 @@ header{
 .nav-link{
    font-family: "Kode Mono", monospace;
    color: white;
+}
+
+.tituloseccion{
+    font-family: "Share Tech Mono", monospace;
+    color: #FF2FAD;
+    text-align: center;
+    margin: 2%;
 }
