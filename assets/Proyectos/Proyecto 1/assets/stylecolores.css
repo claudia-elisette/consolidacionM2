@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabla{
+    border-color: rgb(246, 235, 235);
+    border-style: ridge;
+    width: 750px;
+    height: 180px;
+    margin: 200px auto;
+    padding: 3.5px;
+}
+.color{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    width: 183px;
+    float: left;
+}
+.width{
+    width: 366px;
+}
+.height{
+    height: 80px;
+}
+/* sección 1 */
+.seccion1{
+    height: 41px; 
+    width: 740px;
+}
+#rojo{
+    background-color: red;
+}
+#blanco{
+    background-color: white;
+}
+#verde{
+    background-color: green;
+}
+#gris{
+    background-color: gray;
+}
+
+/* sección 2 */
+.seccion2{
+    height: 158px;
+    width: 367px;
+    float: left;
+}
+#cafe{
+    background-color: brown;
+    padding: 15px 0px;
+}
+#azul{
+    background-color: blue;
+}
+#rosado{
+    background-color: pink;
+}
+#naranjo{
+    background-color: orange;
+}
+#purpura{
+    background-color: purple;
+}
+
+/* sección 3 */
+.seccion3{
+    height: 158px;
+    width: 370px;
+    float: left;
+}
+#violeta{
+    background-color: violet;
+}
+#amarillo{
+    background-color: yellow;
+    padding: 15px 0px;
+}
+#turquesa{
+    background-color: turquoise;
+}
+#negro{
+    background-color: black;
+    color: white;
+}
