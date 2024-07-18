@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+div{
+    color: #ADFF2F;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    border:1%;
+    border-color: #ADFF2F;
+    border-style: dotted;
+}

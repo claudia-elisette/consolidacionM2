@@ -60,6 +60,7 @@
         <main>
 
             <section id="habilidades">
+
                 <h1 class="tituloSeccion">Habilidades</h1>
 
                 <div>
@@ -95,6 +96,7 @@
                 <div>
                         <h1 class="tituloSeccion">Proyectos</h1>
                 </div>
+
                 <div class="row grid gap-3 justify-content-center align-middle">
 
                     <div class="col-md-5 col-lg-4 col-xl-3 gallery">
@@ -123,14 +125,38 @@
 
             </section>
 
-            <section id="formulario">
+            <section id="formulario" class="container">
                 <h1 class="tituloSeccion">Formulario de Contacto</h1>
+                <div>
+                    <form action="respuesta.html" class="row g-3 justify-content-center">
+
+                        <div class="col-md-6">
+                            <label for="nombre" >NOMBRE</label>
+                            <input name= "nombre" type="text" placeholder="Maria Soto" pattern="^[a-zA-ZáéíóúÁÉÍÓÚ]+ [a-zA-ZáéíóúÁÉÍÓÚ-]+$" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email">CORREO ELECTRÓNICO</label>
+                            <input name="email" type="email" placeholder="maria.soto@gmail.com" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+                        </div>
+
+                        <div>
+                            <label for="mensaje">COMENTARIO</label>
+                            <textarea name="mensaje" required></textarea>
+                        </div>
+
+                        <div class="col-5">
+                            <input type="submit" value="ENVIAR" id="enviar">
+                        </div>
+
+                  
+                        
+
+                    </form>
+                </div>
             </section>
 
         </main>
-        <footer>
-            Redes sociales
-        </footer>
         
     <!-- Mi JS   -->
         <script src="assets/JS/script.js"></script>

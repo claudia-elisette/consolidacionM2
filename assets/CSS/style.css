@@ -109,3 +109,17 @@ img {
     text-align: center;
 
 }
+
+label, input, textarea{
+    width: 100%;
+}
+
+label{
+    color:  #FFE92F;
+}
+
+#enviar{
+    margin-top: 2%;
+    background-color: #ADFF2F;
+
+}
