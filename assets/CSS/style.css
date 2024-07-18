@@ -9,7 +9,7 @@ header{
     color: white;
     text-align: center;
     border:1%;
-    border-color: greenyellow;
+    border-color: #ADFF2F;
     border-style: dotted;
     border-bottom-color: black;
     border-bottom-style: solid;
@@ -20,6 +20,17 @@ header{
     font-size: 62px;
 }
 
+.linkTitulo{
+    text-decoration: none;
+    color: white;
+}
+
+.linkTitulo:hover {
+    color: #ADFF2F;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 #textoHeader{
     font-weight: 600;
 }
@@ -28,10 +39,10 @@ header{
 .navbar{
     background-color: black;
     border: 1%;
-    border-color: greenyellow;
+    border-color: #ADFF2F;
     border-style: dotted;
     border-top: 2px;
-    border-top-color: greenyellow;
+    border-top-color: #ADFF2F;
     border-top-style: solid;
 
 }
@@ -46,10 +57,14 @@ main{
     margin: 0 2%;
 }
 
+#habilidades, #proyectos, #formulario{
+    display: none;
+}
+
 section{
     margin-top: 5%;
 }
-.tituloseccion{
+.tituloSeccion{
     font-family: "Share Tech Mono", monospace;
     text-decoration: underline;
     color: #FF2FAD;
@@ -58,6 +73,7 @@ section{
 }
 
 .divHabilidades{
+    font-family: "Share Tech Mono", monospace;
     color: #2FADFF;
     margin: auto;
 }
@@ -87,6 +103,7 @@ img {
 }
   
 .desc {
+    font-family: "Share Tech Mono", monospace;
     color: #2FADFF;
     padding: 5px;
     text-align: center;
